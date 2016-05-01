@@ -14,8 +14,19 @@
     // device APIs are available
     function onDeviceReady() {
         // Now safe to use device APIs
-        window.location='http://www.workn-sport.com/?app=1';
+        location= window.open('http://www.workn-sport.com/?app=1', '_self' 'location=no');
+        
+        // Register the event listener
+        //document.addEventListener("backbutton", onBackKeyDown, false);
     }
+    
+    // Handle the back button
+    //
+    //function onBackKeyDown() {
+    	//window.open('http://www.workn-sport.com/?app=1','_self', 'location=no');
+    //}
+
+
 
     </script>
   </head>
