@@ -99,8 +99,9 @@
     -->
 	
 	
+	<content src="index.html" />
 	
-    <access origin="*"/>
+    <access origin="http://www.workn-sport.com"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
@@ -118,6 +119,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     
-    <content src="index.html" />
+    
 
 </widget>
