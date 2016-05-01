@@ -24,7 +24,7 @@
     
     <!-- needed to get back button addEventListener to work -->
     <!-- Froy 2010 is api 8-->
-    <preference name="android-minSdkVersion" value="5" />
+    <preference name="android-minSdkVersion" value="11" />
     
     
     <preference name="permissions"                value="none"/>
