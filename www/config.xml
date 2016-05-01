@@ -27,7 +27,9 @@
     <preference name="android-minSdkVersion" value="11" />
     
     
-    <preference name="permissions"                value="none"/>
+    <preference name="SplashScreen" value="screen"/>
+    
+    <preference name="permissions" value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
