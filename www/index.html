@@ -8,19 +8,21 @@
 
     // Wait for device API libraries to load
     function onLoad() {
-    	// Register the event listeners
+    	// Register the event listener
         document.addEventListener("deviceready", onDeviceReady, false);
-        document.addEventListener("backbutton", onBackKeyDown, false);
+        
     }
 
     // device APIs are available
     function onDeviceReady() {
-        // Now safe to use device APIs
-         window.open('http://www.workn-sport.com/?app=1','_self','location=no');               
+         // Now safe to use device APIs
+         window.open('http://www.workn-sport.com/?app=1','_self','location=no'); 
+         
+         // Register the event listener
+         document.addEventListener("backbutton", onBackKeyDown, false);              
     }
     
     // Handle the back button
-    //
     function onBackKeyDown() {
     	window.open('http://www.workn-sport.com/?app=1','_self','location=no');
     }
@@ -28,6 +30,7 @@
 
 
     </script>
+    s
   </head>
   <body onload="onLoad()">
   </body>
